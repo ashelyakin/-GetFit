@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255087586247",
+    "firebase_url": "https://getfit-f30fb.firebaseio.com",
+    "project_id": "getfit-f30fb",
+    "storage_bucket": "getfit-f30fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255087586247:android:402fae64a9b5d717",
+        "android_client_info": {
+          "package_name": "ru.demoncho.getfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255087586247-e142db1l25l1empi67at1oii89honh0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.demoncho.getfit",
+            "certificate_hash": "2e1cff0cc922794a173ebeefc4ff98522eda5f90"
+          }
+        },
+        {
+          "client_id": "255087586247-b418sqi7gqcbqr6de4cabfdk8dn92co6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzFyJ7K6oYSoDDWNjxlmD--jIQphSdwYI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255087586247-b418sqi7gqcbqr6de4cabfdk8dn92co6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

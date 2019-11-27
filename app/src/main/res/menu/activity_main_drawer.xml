@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mainmenu"
+            android:icon="@drawable/ic_main_menu"
+            android:title="Главное меню" />
+        <item
+            android:id="@+id/nav_workout"
+            android:icon="@drawable/ic_menu_workout"
+            android:title="Упражнения" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_menu_food"
+            android:title="Диеты" />
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/ic_training"
+            android:title="Программы тренировок" />
+        <item
+            android:id="@+id/nav_equipment"
+            android:icon="@drawable/ic_equipment"
+            android:title="Спортивные снаряды" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_favourite"
+            android:title="Избранное" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_exit"
+            android:title="Выход" />
+
+
+    </group>
+
+</menu>

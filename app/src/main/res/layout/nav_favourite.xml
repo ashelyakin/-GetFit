@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/fav_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Диета"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/fav_food_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Избранная диета не выбрана"
+        android:textColor="#000"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/fav_training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Программа тренировок"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/fav_training_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Избранная программа тренировок не выбрана"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+</LinearLayout>
